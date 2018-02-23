@@ -1,13 +1,13 @@
-#!/usr/bin/env python  
-# encoding: utf-8  
+#!/usr/bin/env python
+# encoding: utf-8
 
 """
-@version: v1.0 
+@version: v1.
 @author: zhangyw
 @site: http://blog.zhangyingwei.com
-@software: PyCharm 
-@file: simpleApplication.py 
-@time: 2018/2/23 16:25 
+@software: PyCharm
+@file: simpleApplication.py
+@time: 2018/2/23 16:25
 """
 
 import tensorflow as tf
