@@ -1,4 +1,4 @@
-#!/usr/local/soft/python-env/py3-env/bin/python
+#!/usr/bin/env python
 # encoding: utf-8
 
 """
@@ -10,9 +10,9 @@
 @time: 2018/2/23 17:22
 """
 
-import tensorflow as tf
-import numpy
 import matplotlib.pyplot as plt
+import numpy
+import tensorflow as tf
 
 train_X = numpy.asarray([1.1, 1.8, 3.2, 4.7, 5.9, 6.7])
 train_Y = numpy.asarray([1.2, 2.1, 3.1, 4.6, 5.5, 6.9])

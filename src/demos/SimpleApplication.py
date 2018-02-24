@@ -9,7 +9,7 @@
 @file: simpleApplication.py
 @time: 2018/2/23 16:25
 """
-
+import matplotlib
 import tensorflow as tf
 
 print("常量")
