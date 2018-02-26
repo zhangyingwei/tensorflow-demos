@@ -90,7 +90,7 @@ for i in range(2):
 #         formate_domain("fnxqfobcjwpmlhxobmq.mn")
 #     ])
 
-result = classifier.predict(input_fn=test_x)
+result = classifier.predict(input_fn=get_test_input)
 result = list(result)
 for index,y in enumerate(result):
     print("res is:"+y+" and acc is:"+test_y[index])
